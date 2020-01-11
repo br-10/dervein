@@ -17,32 +17,7 @@ const Header = ({ siteTitle}) => {
         display:flex;
         `}
     >
-    <Link
-
-      to="/"
-      aria-label="go to homepage"
-      css={css`
-        position:absolute;
-       margin-left:0px;
-       margin-top:-25px;
-       zIndex:50;
-        color: black;
-
-        &:hover {
-          color: black;
-          text-decoration: none;
-        }
-        @media(max-width:500px) {
-          font-size: 16px;
-          text-align:right;
-          margin-left:-6px;
-
-        }
-
-      `}
-    >
-      <img src="/images/B_schwarz.png" alt="logo" width="280px"/>
-    </Link>
+  
       <Link
         to="/"
         aria-label="go to homepage"

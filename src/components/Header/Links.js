@@ -15,14 +15,17 @@ export default () => {
       <Link to="/aktuelles" activeClassName="active" aria-label="aktuelle Informationen">
         Aktuelles
       </Link>
-      <Link to="/chronik" activeClassName="active" aria-label="Link zur Chronik">
-  Chronik
+      <Link to="/resonanz" activeClassName="active" aria-label="Link zur Resonanz-Seite">
+      Resonanz
       </Link>
-      <Link  to="/presse_netzwerk" activeClassName="active" aria-label="Link zu Pressetexten und Netzwerken">
-        Presse & Netzwerk
+      <Link  to="/praml-held" activeClassName="active" aria-label="Link zu den Akteuren">
+         Akteure
       </Link>
-      <Link to="/verein" activeClassName="active" aria-label="Informationen zum Verein">
-        Verein
+      <Link to="/termine" activeClassName="active" aria-label="Informationen zum Verein">
+      Termine
+      </Link>
+      <Link to="/dank" activeClassName="active" aria-label="Informationen zum Verein">
+       Dank
       </Link>
 
 </React.Fragment>

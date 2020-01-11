@@ -269,11 +269,11 @@ export default ({
             margin:0 auto;
             flex-direction: column;
 
-            border-left:30px #F15A24 solid;
-            border-right:30px #F15A24 solid;
+            border-left:30px black solid;
+            border-right:30px black solid;
             @media(max-width:500px){
-              border-left:10px #F15A24 solid;
-              border-right:10px #F15A24 solid;
+              border-left:10px black solid;
+              border-right:10px black solid;
             }
 
           `}

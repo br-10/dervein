@@ -1,7 +1,7 @@
 ---
-slug: aktuelles
-date: 2019-08-22
-title: 'Aktuelle Informationen'
+slug: dank
+date: 2020-08-22
+title: 'Unser Dank gilt ....'
 description: 'Aktuelle Informationen zum Programm'
 published: true
 banner: './home-1.jpg'

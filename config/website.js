@@ -1,6 +1,6 @@
 module.exports = {
   pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/blog your pathPrefix should be "blog"
-  siteTitle: 'Verschönerungsverein Bacharach 1873 e.V.', // Navigation and Site Title
+  siteTitle: 'Es gab keine Vögel in Ausschwitz', // Navigation and Site Title
   siteTitleAlt: 'Verschönerungsverein Bacharach 1873 e. V.', // Alternative Site title for SEO
   siteTitleShort: 'Bacharach', // short_name for manifest
   siteUrl: 'https://bverein.netlify.com', // Domain of your site. No trailing slash!

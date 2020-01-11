@@ -1,7 +1,7 @@
 ---
-slug: aktuelles
+slug: dokumentation
 date: 2019-08-22
-title: 'Aktuelle Informationen'
+title: 'Dokumentation'
 description: 'Aktuelle Informationen zum Programm'
 published: true
 banner: './home-1.jpg'
