@@ -1,6 +1,6 @@
 ---
 slug: dank
-date: 2020-08-22
+date: 2020-08-02
 title: 'Unser Dank gilt ....'
 description: 'Aktuelle Informationen zum Programm'
 published: true

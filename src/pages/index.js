@@ -10,9 +10,30 @@ import { rhythm } from '../lib/typography'
 import Img from 'gatsby-image'
 
 
+
+
+
 export default function Index({ data: { site, allMdx } }) {
   const theme = useTheme()
-
+  // const [audio] = useState(new Audio('./scar.mp3'));
+  // const [playing, setPlaying] = useState(false);
+  //
+  // const toggle = () => setPlaying(!playing);
+  //
+  // useEffect(() => {
+  //
+  //     audio.play()
+  //   },
+  //   [playing]
+  // );
+  //
+  // useEffect(() => {
+  //   audio.addEventListener('ended', () => setPlaying(false));
+  //   return () => {
+  //     audio.removeEventListener('ended', () => setPlaying(false));
+  //   };
+  // }, []);
+  //
 
   return (
     <Layout site={site}>
@@ -37,7 +58,7 @@ export default function Index({ data: { site, allMdx } }) {
                 textAlign:'center',
                 lineHeight:1,
                 padding:'4px 4px 6px 6px',
-                
+
                 marginBottom: rhythm(0.3),
                 transition: 'all 150ms ease',
                 ':hover': {
