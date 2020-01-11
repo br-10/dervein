@@ -1,9 +1,8 @@
 import { css } from '@emotion/core'
-import { useTheme } from '../components/Theming'
-import typography, { fonts } from '../lib/typography'
+import typography from '../lib/typography'
 
 const resetStyles = () => {
-  const theme = useTheme()
+
   return css`
   form {
     margin: 0;
@@ -40,7 +39,7 @@ const resetStyles = () => {
 
   }
  h1 {
-   font-family: ${fonts.regular};
+   font-family: Roboto, sans-serif;
  }
   a:not([href]):not([tabindex]) {
     color: inherit;
@@ -56,7 +55,7 @@ const resetStyles = () => {
   }
 
   blockquote {
-    border-left: 5px solid ${theme.colors.link};
+    border-left: 5px solid gray;
     padding-left: 1rem !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -94,12 +93,12 @@ const resetStyles = () => {
   }
   table {
     border-collapse: collapse;
-    background-color: ${theme.colors.bodyBg};
+    background-color: white;
   }
   caption {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    color: ${theme.colors.bodyBg};
+    color: black;
     text-align: center;
     caption-side: bottom;
   }
