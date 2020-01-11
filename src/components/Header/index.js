@@ -5,9 +5,9 @@ import { css } from '@emotion/core'
 import { bpMaxSM } from '../../lib/breakpoints'
 import MobileMenu from './MobileMenu'
 import Links from './Links'
-
+//import {FaCrow} from 'react-icons/fa'
 import Container from '../Container'
-
+import HG from './vogel.png'
 const Header = ({ siteTitle}) => {
 //  const theme = useTheme()
   return (
@@ -15,21 +15,25 @@ const Header = ({ siteTitle}) => {
     <Container
       css={css`
         display:flex;
+        background-image: url(${HG});
+        background-repeat: no-repeat;
+        background-position:20px 0px;
         `}
     >
-  
+
       <Link
         to="/"
         aria-label="go to homepage"
         css={css`
-          font-family: 'Roboto', sans-serif;
+          font-family: 'Roboto Slab', serif;
           color: black;
           padding-left:85px;
-             font-size:23px;
-
+             font-size:27px;
+             letter-spacing:.09rem;
           @media(max-width:500px) {
-            font-size: 12px;
-            text-align:right;
+            font-size: 15px;
+            text-align:center;
+            padding-left:60px;
 
           }
           &:hover {
@@ -38,7 +42,7 @@ const Header = ({ siteTitle}) => {
           }
         `}
       >
-        {siteTitle}
+         {siteTitle}
       </Link>
     </Container>
       <Container noVerticalPadding>

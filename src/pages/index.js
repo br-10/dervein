@@ -22,6 +22,7 @@ export default function Index({ data: { site, allMdx } }) {
         display:flex;
         flex-wrap:wrap;
         margin:auto;
+
          `}
       >
             {allMdx.edges.map(({ node: post }) => (
@@ -36,7 +37,7 @@ export default function Index({ data: { site, allMdx } }) {
                 textAlign:'center',
                 lineHeight:1,
                 padding:'4px 4px 6px 6px',
-                background: 'black',
+                
                 marginBottom: rhythm(0.3),
                 transition: 'all 150ms ease',
                 ':hover': {
@@ -45,7 +46,7 @@ export default function Index({ data: { site, allMdx } }) {
               })}
             >
               <Link
-               style= {{fontSize: '16px',color: 'white'}}
+               style= {{fontSize: '16px',color: 'black'}}
                 to={post.frontmatter.slug}
                 aria-label={`View ${post.frontmatter.title}`}
               >
