@@ -13,13 +13,15 @@ import { bpMaxSM } from '../lib/breakpoints'
 
 const Move = keyframes`
 0%{
-  left:-200px;
-  opacity:0;
 
+  opacity:0;
+  color:white;
+  left:-200px;
 }
 
 100%{
-  left:0px;
+left:0;
+color:black;
 opacity:1;
 }
 
@@ -37,22 +39,19 @@ export default function Post({
   return (
     <Layout site={site} frontmatter={mdx.frontmatter}>
       <SEO frontmatter={mdx.frontmatter} isBlogPost />
-      <article
-        css={css`
-          width: 100%;
-          display: flex;
-          margin:auto;
-          
-        `}
-      >
+
         <Container>
           <h1
             css={css`
               position:relative;
               animation: ${Move} .3s ease-in;
               text-align: center;
+
               margin-bottom: 20px;
               font-family:'Roboto Slab', serif;
+              width: 100%;
+              display: block;
+              margin:auto;
 
             `}
           >
@@ -78,7 +77,7 @@ export default function Post({
           <MDXRenderer>{mdx.body}</MDXRenderer>
         </Container>
         {/* <SubscribeForm /> */}
-      </article>
+
       <Container noVerticalPadding>
         <Share
           url={`${config.siteUrl}/${mdx.frontmatter.slug}/`}

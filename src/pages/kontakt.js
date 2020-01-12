@@ -27,30 +27,7 @@ export default function Index({ data: { site } }) {
       >
 
 
-<h3 style={{fontSize:'22px'}}>Verschönerungsverein Bacharach 1873 e.V. </h3>
-
-
-Verschönerungsverein Bacharach 1873 e. V.  <br/>
-55422 Bacharach <br/>
-Tel.: ....<br/>
-kontakt@vv-bacharach.de <br/>
-
-<strong>Vorsitzende:</strong>
-  <br/>
-1. Vorsitzender und Gesamtverantwortung: Fritz Stüber <br/>
-2. Vorsitzender: Andreas Stüber <br/>
- <br/>
- Websitebetreuung: Katrin Gloggengiesser, Rene Broich
-  <br/>
-Schriftführerin: Ilka Hölz
- <br/>
-Vereinsregister: Amtsgericht Bingen, VR 479
- <br/>
-Haftungsausschluss: Der Herausgeber übernimmt keine Verantwortung für die Inhalte von Websites, die über Links dieser Sammlung erreicht werden. Die Links werden bei der Aufnahme nur provisorisch angesehen und bewertet. Eine kontinuierliche Prüfung der Inhalte ist weder beabsichtigt noch möglich. Der Herausgeber distanziert sich ausdrücklich von allen Inhalten, die möglicherweise straf- oder haftungsrechtlich relevant sind oder gegen die guten Sitten verstoßen.
- <br/>
-Copyright: Das Copyright für Bilder und Texte liegt, soweit nicht anders vermerkt, bei dem Verschönerungsverein Bacharach 1873 e. V.
- <br/>
-
+<h3 style={{fontSize:'22px'}}>Monika Held und Georg Praml </h3>
 
  <Link to="/impressum">Impressum</Link>
 

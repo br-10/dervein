@@ -155,8 +155,9 @@ article.mybody  {
     }
     button {
       border-radius: 4px;
-
+      opacity:1;
       border: none;
+      background:black;
       color: ${theme.colors.white};
       padding: 5px 10px;
       cursor: pointer;
@@ -167,6 +168,12 @@ article.mybody  {
         border: 1px solid ${lighten(0.05, theme.colors.primary)};
       }
     }
+
+    button.top {
+      background:blue;
+      border:black;
+    }
+
     pre {
       background-color: #061526 !important;
       border-radius: 4px;
